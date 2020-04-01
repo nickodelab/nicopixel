@@ -3,6 +3,7 @@
 
 .menu {
     @include margin-bottom(1);
+    margin-top: 35px;
     &__list {
         list-style: none;
         padding: 0;

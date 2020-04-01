@@ -1,3 +1,4 @@
+
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
@@ -7,9 +8,8 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
-    subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    title: 'Remote Fullstack Developer - @nicopixel',
+    subtitle: '@nicopixel is a crazy scientific who shares knowledge about Javascript, React, Mongo, Node...',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -21,22 +21,26 @@ module.exports = {
         label: 'About me',
         path: '/about/',
       },
-      {
-        label: 'Contact me',
-        path: '/contact/',
-      },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#',
+      name: '@nicopixel',
+      email: 'nicolas.martin.acosta@gmail.com',
+      github: 'https://github.com/nicopixel',
+      linkedin: 'https://www.linkedin.com/in/nicolasmartinacosta/',
     },
   },
   plugins: [
+    'gatsby-plugin-top-layout',
+    {
+      resolve: 'gatsby-plugin-material-ui',
+      // If you want to use styled components you should change the injection order.
+      options: {
+        // stylesProvider: {
+        //   injectFirst: true,
+        // },
+      },
+    },
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

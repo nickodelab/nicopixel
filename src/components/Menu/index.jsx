@@ -2,11 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 import './style.scss'
 
-class Menu extends React.Component {
-  render() {
-    const menu = this.props.data
 
-    const menuBlock = (
+const Menu = ({ data: menu }) => {
+  return (
+    <nav className="menu">
       <ul className="menu__list">
         {menu.map(item => (
           <li className="menu__list-item" key={item.path}>
@@ -20,10 +19,8 @@ class Menu extends React.Component {
           </li>
         ))}
       </ul>
-    )
-
-    return <nav className="menu">{menuBlock}</nav>
-  }
+    </nav>
+  )
 }
 
 export default Menu

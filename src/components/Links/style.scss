@@ -3,6 +3,8 @@
 
 .links {
     @include margin-bottom(1);
+    display: flex;
+    justify-content: flex-end;
     &__list {
         display: flex;
         list-style: none;
@@ -17,6 +19,7 @@
             border-radius: 3px;
             text-align: center;
             background: $color-gray-bg;
+            cursor: pointer;
             & a {
                 border: 0;
                 & i {
