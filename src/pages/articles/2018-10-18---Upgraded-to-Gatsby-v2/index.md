@@ -1,33 +1,135 @@
 ---
-title: Upgraded to Gatsby v2
-date: "2018-10-18T16:51:00.000Z"
+title: All you need to know to use Material-UI like a PRO
+date: "2020-02-16"
 layout: post
 draft: false
-path: "/posts/upgraded-to-gatsby-v2/"
-category: "Gatsby"
+path: "/posts/install-material-ui/"
+category: "React"
 tags:
-  - "Gatsby"
-  - "Web Development"
-description: "This starter has been forked and upgraded to Gatsby v2"
+  - "Material-UI"
+description: "Install, use, customize, advanced tips, withStyles, Icons, Theme, JSS, Tricks and Tips to start using Material-UI right now"
 ---
 
-This is a Gatsby v2 compatible version of the
-[lumen](https://github.com/alxshelepenok/gatsby-starter-lumen) starter, started
-by the folks at [Gatsby Central](https://www.gatsbycentral.com/).
+## Install
+First install @material-ui core. This is the main library to use the main library
 
-Here's a little recommended reading for Gatsby v2.
+```shell 
+npm install @material-ui/core
+```
 
-* First, [what's new in v2](https://www.gatsbycentral.com/whats-new-in-gatsby-v2)
-* Next, [when should I upgrade?](https://www.gatsbycentral.com/when-should-i-upgrade-to-gatsby-v2)
-* [The Gatsby v2 announcement blog post](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/)
+```shell 
+yarn add @material-ui/core
+```
 
-If you **do decide to upgrade**, these articles will help you do that.
+## Using with default styles
+- All components in @MUI comes with default styles (with a [default theme](https://material-ui.com/customization/default-theme/)).
 
-* [Getting started with Gatsby v2](https://www.gatsbycentral.com/getting-started-with-gatsby-v2)
-* [Should I rebuild my site for Gatsby v2?](https://www.gatsbycentral.com/should-i-rebuild-my-site-for-gatsby-v2)
-* [How do layouts work in Gatsby v2](https://www.gatsbycentral.com/how-do-layouts-work-in-gatsby-v2)
-* [StaticQuery in Gatsby v2](https://www.gatsbycentral.com/staticquery-in-gatsby-v2)
+```jsx
+import react from 'react'
+import { Button } from '@material-ui/core'
 
-Finally, here's a cheat sheet we prepared to help during the upgrade:
+const MyComponent = () => {
+  return <Button>Material UI Button</Button>
+}
 
-* [Gatsby v2 refactoring cheat sheet](https://www.gatsbycentral.com/gatsby-v2-refactoring-cheat-sheet)
+export default MyComponent
+```
+
+## Using with custom styles
+- Using `className` in the MUI Button component is enough to apply your CSS rules
+
+##### withStyles HOC
+```jsx
+import react from 'react'
+import { Button, withStyles } from '@material-ui/core'
+
+// can be an object
+const customStyles = {
+  myCustomClass: {
+    textTransform: 'uppercase'
+  }
+}
+
+// also can be a function receiving theme as parameter
+// in this case you have to return an object
+const customStyles = theme => ({
+  myCustomClass: {
+    textTransform: 'uppercase',
+    padding: theme.spacing(3),
+    color: theme.palette.primary.main
+  }
+})
+
+const MyComponent = ({ classes }) => {
+  return <Button className={classes.myCustomClass}>
+          Material UI Button
+         </Button>
+}
+
+export default withStyles(customStyles)(MyComponent)
+```
+
+##### makeStyles HOOK
+```jsx
+import react from 'react'
+import { Button, makeStyles } from '@material-ui/core'
+
+// you can use also an object as parameter for makeStyles
+const useMyComponentStyle = makeStyles((theme) => ({
+  myCustomClass: {
+    textTransform: 'uppercase',
+    padding: theme.spacing(3),
+    color: theme.palette.primary.main
+  }
+}))
+
+const MyComponent = () => {
+  const classes = useMyComponentStyle()
+  return <Button className={classes.myCustomClass}>
+              Material UI Button
+         </Button>
+}
+
+export default MyComponent
+```
+
+## Using overriding the internal Material-UI styles
+To override styles you have to use the prop `classes` in the @MUI component. All Material-UI component.
+You can find a list with all styles applied to the component in the API docs. For example, for the Button component [here](https://material-ui.com/api/button/#css) you can find all css rule name applied
+
+```jsx
+import react from 'react'
+import { Button, withStyles } from '@material-ui/core'
+
+// also can be a function receiving theme as parameter
+// in this case you have to return an object
+const customStyles = theme => ({
+  myDisabledButton: {
+    color: theme.palette.secondary.main
+  }
+})
+
+// overriding the root class from the Button component
+const MyComponent = ({ classes }) => {
+  return <Button classes={{ disabled: classes.myDisabledButton }}>
+          Material UI Button
+         </Button>
+}
+
+export default withStyles(customStyles)(MyComponent)
+```
+
+#### Media queries in Material-UI
+
+#### Using overriding @MUI styles
+
+#### Creating a Material-UI theme
+
+#### A little bit of JSS. The great ally for Material-UI
+
+#### The most used Material-UI components
+
+
+### Other useful information and links
+* [Material-UI Official Website](https://material-ui.com/)
+* 
