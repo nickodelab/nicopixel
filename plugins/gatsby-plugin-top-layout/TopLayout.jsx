@@ -3,7 +3,9 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import { ThemeProvider } from '@material-ui/core/styles'
+import { Provider } from 'react-redux'
 
+// import { store } from '../../src/redux/store'
 import theme from '../../src/theme/theme'
 
 console.log('@theme', theme)
@@ -18,8 +20,8 @@ const TopLayout = props => (
       />
     </Helmet>
     <ThemeProvider theme={theme}>
-      <CssBaseline />
-      {props.children}
+        <CssBaseline />
+        {props.children}
     </ThemeProvider>
   </>
 )

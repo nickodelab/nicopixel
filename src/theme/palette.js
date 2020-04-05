@@ -5,10 +5,8 @@ const palette = {
   },
   secondary: {
     main: '#F3A700'
-  },
+  }
 }
 
-export {
-  palette
-}
+export { palette }
 
