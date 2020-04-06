@@ -9,7 +9,7 @@ class TagsRoute extends React.Component {
   render() {
     const { title } = this.props.data.site.siteMetadata
     const tags = this.props.data.allMarkdownRemark.group
-
+    console.log('tags', tags)
     return (
       <Layout>
         <div>

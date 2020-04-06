@@ -1,6 +1,8 @@
+
 import React from 'react'
 import { Link } from 'gatsby'
 import moment from 'moment'
+import _ from 'lodash'
 import './style.scss'
 
 class Post extends React.Component {
@@ -11,7 +13,8 @@ class Post extends React.Component {
       category,
       description,
     } = this.props.data.node.frontmatter
-    const { slug, categorySlug } = this.props.data.node.fields
+    // const { slug, categorySlug } = this.props.data.node.fields
+    const { slug } = this.props.data.node.fields
 
     return (
       <div className="post">
@@ -23,11 +26,13 @@ class Post extends React.Component {
             {moment(date).format('MMMM YYYY')}
           </time>
           <span className="post__meta-divider" />
-          <span className="post__meta-category" key={categorySlug}>
-            <Link to={categorySlug} className="post__meta-category-link">
-              {category}
-            </Link>
-          </span>
+          {category.map(cat => (
+            <span className="post__meta-category" key={`/categories/${_.kebabCase(cat)}/`}>
+              <Link to={`/categories/${_.kebabCase(cat)}/`} className="post__meta-category-link">
+                {cat}
+              </Link>
+            </span>
+          ))}
         </div>
         <h2 className="post__title">
           <Link className="post__title-link" to={slug}>

@@ -4,9 +4,12 @@ date: "2020-02-16"
 layout: post
 draft: false
 path: "/posts/material-ui-tutorial/"
-category: "React"
-tags:
+category: 
   - "Material-UI"
+  - "React"
+tags: 
+  - "Material-UI"
+  - "Redux"
 description: "Install, use, customize, advanced tips, withStyles, Icons, Theme, JSS, Tricks and Tips to start using Material-UI right now"
 ---
 
