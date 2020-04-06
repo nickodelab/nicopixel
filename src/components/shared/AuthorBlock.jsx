@@ -1,11 +1,11 @@
 
 import React from 'react'
 import { Link } from 'gatsby'
-import {
-  Typography,
-  Avatar,
-  withStyles
-} from '@material-ui/core'
+// import {
+//   Typography,
+//   Avatar,
+//   withStyles
+// } from '@material-ui/core'
 
 const styles = theme => ({
   avatarLogo: {
@@ -22,14 +22,16 @@ const styles = theme => ({
 const AuthorBlock = ({ classes, subtitle, imgPath, linkTo, ...avatarProps }) => (
   <div className={classes.authorBlock}>
     <Link to={linkTo}>
-      <Avatar
-        alt="@nicopixel Remote Fullstack Developer"
-        classes={{ root: classes.avatarLogo }}
-        src={imgPath}
-        {...avatarProps}
-      />
+
+        <img
+            src={imgPath}
+            className="sidebar__author-photo"
+            width="75"
+            height="75"
+            alt={author.name}
+          />
     </Link>
-    <Typography classes={{ root: classes.authorDescription }}>{subtitle}</Typography>
+    <p classes={{ root: classes.authorDescription }}>{subtitle}</p>
   </div>
 )
 
