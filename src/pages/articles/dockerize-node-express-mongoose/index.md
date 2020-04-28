@@ -95,3 +95,5 @@ mongoose
 - `docker system prune`: clean up any resources — images, containers, volumes, and networks — that are dangling (not associated with a container)
 - `docker system prune -a`: remove any stopped containers and all unused images
 - `docker images -a`: will show you every image, including intermediate image layers
+- `docker-compose config`: you’ll see how the docker-compose.yml file content looks after the substitution step has been performed without running anything else
+- `docker-compose ps`: docker entrypoints, really useful if you want to see the address and ports of all services running in the container
