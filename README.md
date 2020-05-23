@@ -22,6 +22,20 @@
 If you want to run [nicopixel.com](https://nicopixel.com/) locally you can use `gatsby develop` command
 
 ## Blog Screenshot
-![](http://i.imgur.com/422y5GV.png)
+![](./docs/images/nicopixel.com_screenshot.png)
+
+## Design IDEA
+[nicopixel.com](https://nicopixel.com/) is base on the image of the crazy scientist
+
+![](./docs/images/drclave-all.png)
+
+## Work in progress
+
++ About me page
++ Form to let everyone send their amazing code snippets
++ Search bar
++ Optional feature image in posts
+
+
 
 

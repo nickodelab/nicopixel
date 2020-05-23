@@ -9,7 +9,7 @@ module.exports = {
     url,
     siteUrl: url,
     title: 'Remote Fullstack Developer',
-    subtitle: 'Welcome to my Blog. There is no tutorials over here, only useful and awesome code snippets to boost 🚀 you development level.',
+    subtitle: 'Welcome to my Blog. There is no tutorials over here, only useful and awesome code snippets to boost 🚀 your development level.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
