@@ -8,8 +8,8 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Remote Fullstack Developer - @nicopixel',
-    subtitle: '@nicopixel is a crazy scientific who shares knowledge about Javascript, React, Mongo, Node...',
+    title: 'Remote Fullstack Developer',
+    subtitle: 'Welcome to my Blog. There is no tutorials over here, only useful and awesome code snippets to boost 🚀 you development level.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
