@@ -25,7 +25,7 @@ If you want to run [nicopixel.com](https://nicopixel.com/) locally you can use `
 ![](./docs/images/nicopixel.com_screenshot.png)
 
 ## Design IDEA
-[nicopixel.com](https://nicopixel.com/) is base on the image of the crazy scientist
+[nicopixel.com](https://nicopixel.com/) is based on the image of the crazy scientist
 
 ![](./docs/images/drclave-all.png)
 
