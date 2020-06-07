@@ -5,32 +5,42 @@ path: "/about"
 ---
 
 ### Curious about me?
-First of all thank you for your interesting in my profile. My name is Nicolás Martín and I'll tell you more about my person (no speech over here about my skills and knowledge. If you are interested on that go to my [Linked Profile](https://www.linkedin.com/in/nicolasmartinacosta/), [read my blog posts](https://nicopixel.com/) or [download my CV](./test.pdf).
+First of all thank you for your interesting in my profile. My name is Nicolás Martín and I'll tell you more about my person (no speech over here about my skills and knowledge. If you are interested on that you can go to my [Linked Profile](https://www.linkedin.com/in/nicolasmartinacosta/), [read my blog posts](https://nicopixel.com/) or [download my CV](./test.pdf).
 
-This is HOW I AM and not WHAT I KNOW.
+### This is HOW I AM (not WHAT I KNOW)
 
-**THIS IS MY MANIFESTO**
+## **THIS IS MY MANIFESTO**
 
-1. Remote and teamwork are allies not enemies. Being far away doesn't means disconnection, quite the opposite: remote work requires link people in a continuous, constantly and focussed way.
+### WORK + LIFE. How? 
+I strongly believe in the Remote WORK, this is how I want to LIVE. So, henceforth I'll refer to RemoteWork as a RemoteLife or just simply Remote. **Remote is a life style**.
 
-2. Remote work requires evaluates employees based on goals and no in time invested. So, you'll need first define and develop a SMART goals
+To deny some concepts that I have heard or felt or just to keep in mind, here some important points:
 
-3. Invest the time you need to create a solid base before go to the next layer, otherwise you'll come back to re-build the code
+- RemoteLife and TeamWork are allies not enemies.
+- Being far away doesn't means disconnection, quite the opposite: RemoteLife forces you to **link people** in a continuous, constantly and focussed way.
+- RemoteLife forces you to evaluate your collegues ** based on goals ** and not in time invested
+- RemoteLife helps **personal development**
+- RemoteLife makes a better developer: **more indepent but more connected, stronger, willing to help, self-confident and more efficient**
+- RemoteLife makes me happier thus more productive: RemoteLife it's a great freedom but also a big responsability
 
-4. Testing first, testing after and testing again. I love and I believe in testing as a driver of a solid code
+**If you are a company and you don't have Remotelife mindset, please don't contact me**
 
-5. Don't without a solid WORKFLOW. Yep, of course use Trello or Jira is important but without a methodology they are useless. Interested in CI Development, Agile, Git Flow... 
+### 60% PLANNING / 40% CODING
+It's much more important talk and share thoughs about the HOW than go fast to implement an idea in the code. It's extremely important talk and **explain to you collegues** how you want implement something, and this takes me to the next point:
 
-6. Much better a leader (suggest) than a boss (command)
+### IF YOU WANT TO GO FAST GO ALONE, IF YOU WANT TO GO FAR GO WITH A TEAM
+The team is really near to you in a RemoteLife. And this is not only happy and beautiful words. I think **the best way to learn is helping others**. Why? try to explain something to others that you don't really deeply understand. Only when you can share the knowledge you really understand something.
 
-7. Only one word to describe this point: GIT
+### LEADER OVER BOSS
+- I prefer the suggestion over the commands. I prefer leaders against bosses (I think everyone wants this, right?)
+- I need someone with much knowledge than me, I need someone to learn from in my team
 
-8. Continuos formation as personal and professional development? Ohhhh Yes!
-
-9. Salary? yes, another important point that HAVE to be in the list
-
-10. Motivation? most of the previuos points are in your life? then motivation appears as if by magic
-
+### TO FINISH, THE LAST BUT IMPORTANT
+- GIT
+- A solid workflow: CI development, Git Flow ...
+- Extraction request (Yes, I have to put this because there are some computers that are doing remote control without extraction request) 😱 😰 🤯
+- Honest salary
+- Help to finish my career (Computer Engineering)
 
 #### My favourites movie
 - American History X (1998)
@@ -49,6 +59,8 @@ This is HOW I AM and not WHAT I KNOW.
 - Queen - Bohemian Rapsody
 - Guns N' Roses - Sweet Child O' mine
 
-Images that can define me
-### 10 images to define me
+
+#### an image is worth a thousand words
+10 imágenes 
+10000 words
 ![](https://static01.nyt.com/images/2016/10/19/business/19gap-then-and-now-alt/19gap-then-and-now-alt-superJumbo.jpg?quality=90&auto=webp)
