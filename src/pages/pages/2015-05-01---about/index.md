@@ -5,7 +5,7 @@ path: "/about"
 ---
 
 ### Curious about me?
-First of all thank you for your interesting in my profile. My name is Nicolás Martín and I'll tell you more about my person (no speech over here about my skills and knowledge. If you are interested on that you can go to my [Linked Profile](https://www.linkedin.com/in/nicolasmartinacosta/), [read my blog posts](https://nicopixel.com/) or [download my CV](./test.pdf).
+First of all thank you for your interesting in my profile. My name is Nicolás Martín and I'll tell you more about my person (no speech over here about my skills and knowledge. If you are interested on that you can go to my [Linked Profile](https://www.linkedin.com/in/nicolasmartinacosta/), [read my blog posts](https://nicopixel.com/) or [download my CV](./cv_nicopixel.pdf).
 
 ### This is HOW I AM (not WHAT I KNOW)
 
@@ -40,7 +40,7 @@ The team is really near to you in a RemoteLife. And this is not only happy and b
 - A solid workflow: CI development, Git Flow ...
 - Extraction request (Yes, I have to put this because there are some computers that are doing remote control without extraction request) 😱 😰 🤯
 - Honest salary
-- Help to finish my career (Computer Engineering)
+- Support to finish my career (Computer Engineering)
 
 #### My favourites movie
 - American History X (1998)
@@ -59,8 +59,6 @@ The team is really near to you in a RemoteLife. And this is not only happy and b
 - Queen - Bohemian Rapsody
 - Guns N' Roses - Sweet Child O' mine
 
-
 #### an image is worth a thousand words
 10 imágenes 
-10000 words
-![](https://static01.nyt.com/images/2016/10/19/business/19gap-then-and-now-alt/19gap-then-and-now-alt-superJumbo.jpg?quality=90&auto=webp)
+![](./collage.jpg)
