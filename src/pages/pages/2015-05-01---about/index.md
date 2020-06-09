@@ -12,7 +12,7 @@ First of all thank you for your interesting in my profile. My name is Nicolás M
 ## **THIS IS MY MANIFESTO**
 
 ### WORK + LIFE. How? 
-I strongly believe in the Remote WORK, this is how I want to LIVE. So, henceforth I'll refer to RemoteWork as a RemoteLife or just simply Remote. **Remote is a life style**.
+I strongly believe in the Remote WORK, this is how I want to LIVE. So, henceforth I'll refer to RemoteWork as a RemoteLife or just simply Remote. **Remote is a life style**
 
 To deny some concepts that I have heard or felt or just to keep in mind, here some important points:
 
