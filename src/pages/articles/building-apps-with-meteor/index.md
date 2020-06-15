@@ -106,14 +106,6 @@ export default withTracker(() => {
 - `blaze-html-templates` and `static-html` are Meteor packages and not npm packages
 - Compilation is one of several key features that make Meteor packages more powerful than npm packages
 
-### Keypoints in Meteor
-- The entry point for both client and server JavaScript is determined by the `meteor.mainModule` section in package.json
-- `imports/api` This is a sensible place to store API-related files for the application. 
-- `methods` write to collections
-- `publications` read from collections
-- `meteor add react-meteor-data` install this meteor package to use data from a Meteor collection inside a React component
-- `meteor mongo` access to the meteor mongo console
-
 ### `accounts-ui` package
 - `meteor add accounts-ui accounts-password` meteor comes with an accounts system and a drop-in login user interface that lets you add multi-user functionality to your app in minutes. (Login only with Blaze). You have a lot of features included in this package. For example Facebook or Google account Login [docs accounts-ui](https://docs.meteor.com/packages/accounts-ui.html)
 
@@ -254,3 +246,13 @@ if (Meteor.isServer) {
     });
 }
 ```
+
+### Keypoints in Meteor
+- The entry point for both client and server JavaScript is determined by the `meteor.mainModule` section in package.json
+- `imports/api` This is a sensible place to store API-related files for the application. 
+- `methods` write to collections
+- `publications` read from collections
+- `meteor add react-meteor-data` install this meteor package to use data from a Meteor collection inside a React component
+- `meteor mongo` access to the meteor mongo console
+- `meteor npm install -g yarn` install yarn inside the meteor system to use it
+- `meteor add nathantreid:static-assets` meteor package to use .svg files inside our project
