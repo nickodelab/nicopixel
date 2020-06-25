@@ -1,5 +1,5 @@
 ---
-title: Meteor
+title: First steps with Meteor Framework
 date: "2020-06-12"
 layout: post
 draft: false
