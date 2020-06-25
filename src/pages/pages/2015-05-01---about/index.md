@@ -11,36 +11,30 @@ First of all thank you for your interest in my profile. My name is Nicolás Mart
 
 ## **THIS IS MY MANIFESTO**
 
-### WORK + LIFE. How? 
-I strongly believe in the Remote WORK, this is how I want to LIVE. So, henceforth I'll refer to RemoteWork as a RemoteLife or just simply Remote. **Remote is a life style**
+### What are the most important values to me? (Brainstorming is coming)
 
-To deny some concepts that I have heard or felt or just to keep in mind, here are some important points:
-
-- RemoteLife and TeamWork are allies not enemies.
-- Being far away doesn't means disconnection, quite the opposite: RemoteLife forces you to **link people** in a continuous, constantly and focussed way.
-- RemoteLife forces you to evaluate your collegues **based on goals** and not in time invested
-- RemoteLife helps **personal development**
-- RemoteLife makes a better developer: **more indepent but more connected, stronger, willing to help, self-confident and more efficient**
-- RemoteLife makes me happier thus more productive: RemoteLife it's a great freedom but also a big responsability
-
-**If you are a company and you don't have Remotelife mindset, please don't contact me**
+- Teamwork in the center of my daily work.
+- Love **peer programming** as a constantly way of learning and share knowledge.
+- I need ambitious and easy to understand **goals** and a strong methodology to work with.
+- Searching always for new technologies to implement or **awesome courses** to keep myself always updated.
+- Open for remote positions: because remote makes you great developers: **indepent and connected, self-confident and efficient**
 
 ### 60% PLANNING / 40% CODING
 It's much more important talk and share thoughs about the HOW than go fast to implement an idea in the code. It's extremely important talk and **explain to your collegues** how you want implement something, and this takes me to the next point:
 
 ### IF YOU WANT TO GO FAST GO ALONE, IF YOU WANT TO GO FAR GO WITH A TEAM
-The team is really near to you in a RemoteLife. And this is not only happy and beautiful words. I think **the best way to learn is helping others**. Why? try to explain something to others that you don't really deeply understand. Only when you can share the knowledge you really understand something.
+I think **the best way to learn is helping others**. Why? try to explain something to others that you don't really deeply understand. Only when you can share the knowledge you really understand something.
 
 ### LEADER OVER BOSS
 - I prefer the suggestion over the commands. I prefer leaders against bosses (I think everyone wants this, right?)
 - I need someone with much knowledge than me, I need someone to learn from in my team
 
 ### TO FINISH, THE LAST IMPORTANT CONCEPTS:
-- GIT
-- A solid workflow: CI development, Git Flow ...
-- Always creates Pull Requests
-- Honest salary
-- Support to finish my career (Computer Engineering)
+- **GIT**
+- A solid **workflow**: CI development, Git Flow ...
+- Don't without **Testing**
+- Using the power of **Pull Requests** to share my code
+- Long life for **Agile**
 
 #### My favourites movie
 - American History X (1998)

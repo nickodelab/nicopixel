@@ -8,8 +8,8 @@ const AuthorBlock = ({ subtitle, imgPath, linkTo }) => (
       <img
         src={imgPath}
         className="sidebar__author-photo"
-        width="75"
-        height="75"
+        width="175"
+        height="175"
         alt="nicopixel Fullstack Remote Developer"
       />
     </Link>

@@ -1,5 +1,5 @@
 ---
-title: Great Redux structure to start with REDUX
+title: Great structure to start with REDUX
 date: "2020-04-01"
 layout: post
 draft: false
