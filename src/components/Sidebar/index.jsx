@@ -5,7 +5,7 @@ import Menu from '../Menu'
 import Links from '../Links'
 
 import AuthorBlock from '../shared/AuthorBlock'
-import profilePic from '../../assets/img/remote-fullstack-developer-nicopixel.jpeg'
+import profilePic from '../../assets/img/nicopixel.png'
 import './style.scss'
 
 const Sidebar = props => {
