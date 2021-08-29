@@ -1,4 +1,3 @@
-
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
@@ -9,7 +8,8 @@ module.exports = {
     url,
     siteUrl: url,
     title: 'Remote Fullstack Developer',
-    subtitle: 'Welcome to my Blog. There is no tutorials over here, only useful and awesome code snippets to boost 🚀 your development level.',
+    subtitle:
+      'Welcome to my Blog. There is no tutorials over here, only useful and awesome code snippets to boost 🚀 your development level.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -20,6 +20,10 @@ module.exports = {
       {
         label: 'About me',
         path: '/about/',
+      },
+      {
+        label: 'Portfolio',
+        path: '/portfolio/',
       },
     ],
     author: {
@@ -165,6 +169,6 @@ module.exports = {
         ],
         precision: 8,
       },
-    }
+    },
   ],
 }
