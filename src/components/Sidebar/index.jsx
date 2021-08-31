@@ -1,28 +1,20 @@
-
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Menu from '../Menu'
 import Links from '../Links'
-
 import AuthorBlock from '../shared/AuthorBlock'
-import profilePic from '../../assets/img/nicopixel.png'
+import { useSidebarData } from '../../hooks/useSidebarData'
+
 import './style.scss'
 
-const Sidebar = props => {
-  const { author, subtitle, menu } = props.data.site.siteMetadata
+const Sidebar = () => {
+  const { author, subtitle, menu } = useSidebarData()
 
   return (
     <div className="sidebar">
       <div className="sidebar__inner">
-        <div className="sidebar__author">
-          <AuthorBlock
-            author={author}
-            subtitle={subtitle}
-            imgPath={profilePic}
-            linkTo="/"
-            variant="square"
-          />
-        </div>
+        <AuthorBlock subtitle={subtitle} />
         <div>
           <Menu data={menu} />
           <Links author={author} />

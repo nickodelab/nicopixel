@@ -21,7 +21,7 @@ const IndexRoute = props => {
           <title>{title}</title>
           <meta name="description" content={subtitle} />
         </Helmet>
-        <Sidebar {...props} />
+        <Sidebar />
         <div className="content">
           <div className="content__inner">{items}</div>
         </div>

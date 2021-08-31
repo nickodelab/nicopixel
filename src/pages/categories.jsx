@@ -14,7 +14,7 @@ class CategoriesRoute extends React.Component {
       <Layout>
         <div>
           <Helmet title={`All Categories - ${title}`} />
-          <Sidebar {...this.props} />
+          <Sidebar />
           <div className="content">
             <div className="content__inner">
               <div className="page">

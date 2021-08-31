@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import ProjectTemplateDetails from '../components/ProjectTemplateDetails'
-import Sidebar2 from '../components/Sidebar2'
+import Sidebar from '../components/Sidebar'
 
 const PortfolioTemplate = props => {
   const { title, subtitle } = props.data.site.siteMetadata
@@ -14,7 +14,7 @@ const PortfolioTemplate = props => {
   return (
     <Layout pageTitle={pageTitle} title={title} description={description}>
       <div>
-        <Sidebar2 />
+        <Sidebar />
         <ProjectTemplateDetails {...props} />
       </div>
     </Layout>
