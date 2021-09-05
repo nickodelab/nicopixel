@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Remote Fullstack Developer',
+    title: 'nicopixel Software Engineer',
     subtitle:
       'Welcome to my Blog. There is no tutorials over here, only useful and awesome code snippets to boost 🚀 your development level.',
     copyright: '© All rights reserved.',

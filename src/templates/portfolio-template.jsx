@@ -2,20 +2,35 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import ProjectTemplateDetails from '../components/ProjectTemplateDetails'
+
+import ProjectsSummary from '../components/ProjectsSummary'
 import Sidebar from '../components/Sidebar'
 
-const PortfolioTemplate = props => {
-  const { title, subtitle } = props.data.site.siteMetadata
-  const page = props.data.markdownRemark
-  const { title: pageTitle, description: pageDescription } = page.frontmatter
-  const description = pageDescription !== null ? pageDescription : subtitle
+const PortfolioTemplate = ({ data: { markdownRemark } }) => {
+  const {
+    title: pageTitle,
+    description: pageDescription,
+  } = markdownRemark.frontmatter
 
   return (
-    <Layout pageTitle={pageTitle} title={title} description={description}>
+    <Layout pageTitle={pageTitle} pageDescription={pageDescription}>
       <div>
         <Sidebar />
-        <ProjectTemplateDetails {...props} />
+        <div className="content">
+          <div className="content__inner">
+            <div className="project">
+              <h1 className="project__title">
+                {markdownRemark.frontmatter.title}
+              </h1>
+              <div
+                className="project__body"
+                /* eslint-disable-next-line react/no-danger */
+                dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
+              />
+            </div>
+            <ProjectsSummary />
+          </div>
+        </div>
       </div>
     </Layout>
   )
@@ -25,22 +40,6 @@ export default PortfolioTemplate
 
 export const pageQuery = graphql`
   query GetAllProjects($slug: String!) {
-    site {
-      siteMetadata {
-        title
-        subtitle
-        menu {
-          label
-          path
-        }
-        author {
-          name
-          github
-          email
-          linkedin
-        }
-      }
-    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html

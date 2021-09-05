@@ -2,7 +2,7 @@
 title: 'Portfolio'
 description: 'portfolio SEO description'
 layout: 'portfolio'
-slug: '/portfolio'
+path: '/portfolio'
 ---
 
 ## Header Level 2
