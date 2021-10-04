@@ -1,0 +1,12 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.badge {
+  margin-right: 5px;
+  padding: 5px;
+  background-color: $color-background;
+  border-radius: 3px;
+  &-featured {
+    background-color: $color-primary;
+  }
+}

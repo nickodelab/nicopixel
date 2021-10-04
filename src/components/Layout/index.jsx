@@ -1,18 +1,21 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+
 import '../../assets/scss/init.scss'
+import { useSiteMetadata } from '../../hooks/useSiteMetadata'
 
-class Layout extends React.Component {
-  render() {
-    const { children } = this.props
+const Layout = ({ children, pageTitle, pageDescription }) => {
+  const { title, subtitle } = useSiteMetadata()
 
-    return (
-      <div className="layout">
-        <Helmet defaultTitle="Blog by John Doe" />
-        {children}
-      </div>
-    )
-  }
+  return (
+    <div className="layout">
+      <Helmet>
+        <title>{`${pageTitle} - ${title}`}</title>
+        <meta name="description" content={pageDescription || subtitle} />
+      </Helmet>
+      {children}
+    </div>
+  )
 }
 
 export default Layout

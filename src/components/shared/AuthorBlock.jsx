@@ -1,20 +1,25 @@
-
 import React from 'react'
 import { Link } from 'gatsby'
 
-const AuthorBlock = ({ subtitle, imgPath, linkTo }) => (
-  <div>
-    <Link to={linkTo}>
-      <img
-        src={imgPath}
-        className="sidebar__author-photo"
-        width="175"
-        height="175"
-        alt="nicopixel Fullstack Remote Developer"
-      />
-    </Link>
-    <p>{subtitle}</p>
-  </div>
-)
+import logoPath from '../../assets/img/nicopixel.png'
+
+const AuthorBlock = ({ subtitle }) => {
+  return (
+    <div className="sidebar__author">
+      <div>
+        <Link to="/">
+          <img
+            src={logoPath}
+            className="sidebar__author-photo"
+            width="140"
+            height="140"
+            alt="nicopixel - Software Development Engineer"
+          />
+        </Link>
+        <p>{subtitle}</p>
+      </div>
+    </div>
+  )
+}
 
 export default AuthorBlock
