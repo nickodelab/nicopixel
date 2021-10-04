@@ -18,8 +18,8 @@ const PortfolioTemplate = ({ data: { markdownRemark } }) => {
         <Sidebar />
         <div className="content">
           <div className="content__inner">
-            <div className="project">
-              <h1 className="project__title">
+            <div className="projects">
+              <h1 className="projects__title">
                 {markdownRemark.frontmatter.title}
               </h1>
               <div

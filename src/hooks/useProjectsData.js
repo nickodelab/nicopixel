@@ -12,18 +12,14 @@ export const useProjectsData = () => {
         ) {
           edges {
             node {
-              fields {
-                slug
-              }
               frontmatter {
                 title
-                date
-                category
-                description
                 tags
-                layout
+                github
+                live
+                type
+                excerpt
               }
-              html
             }
           }
         }

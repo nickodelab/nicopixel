@@ -28,7 +28,7 @@ module.exports = {
     ],
     author: {
       name: '@nicopixel',
-      email: 'nicolas.martin.acosta@gmail.com',
+      email: 'hi@nicopixel.com',
       github: 'https://github.com/nicopixel',
       linkedin: 'https://www.linkedin.com/in/nicolasmartinacosta/',
     },
