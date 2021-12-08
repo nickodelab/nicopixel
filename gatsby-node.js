@@ -11,6 +11,7 @@ exports.createPages = ({ graphql, actions }) => {
     const portfolioTemplate = path.resolve(
       './src/templates/portfolio-template.jsx'
     )
+    const booksTemplate = path.resolve('./src/templates/books-template.jsx')
     const tagTemplate = path.resolve('./src/templates/tag-template.jsx')
     const categoryTemplate = path.resolve(
       './src/templates/category-template.jsx'
@@ -53,6 +54,14 @@ exports.createPages = ({ graphql, actions }) => {
           createPage({
             path: edge.node.fields.slug,
             component: slash(portfolioTemplate),
+            context: {
+              slug: edge.node.fields.slug,
+            },
+          })
+        } else if (_.get(edge, 'node.frontmatter.layout') === 'books') {
+          createPage({
+            path: edge.node.fields.slug,
+            component: slash(booksTemplate),
             context: {
               slug: edge.node.fields.slug,
             },
@@ -112,7 +121,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     typeof node.slug === 'undefined'
   ) {
     const fileNode = getNode(node.parent)
-    let slug = fileNode.fields.slug
+    let slug = fileNode.fields ? fileNode.fields.slug : '/xxxx'
     if (typeof node.frontmatter.path !== 'undefined') {
       slug = node.frontmatter.path
     }

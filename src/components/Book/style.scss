@@ -1,0 +1,65 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.book {
+  padding: 30px 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  @include margin-bottom(1.25);
+  &__content {
+    display: flex;
+    flex-direction: row-reverse;
+    &-description {
+      width: 50%;
+      margin: 10px;
+    }
+    &-image {
+      width: 50%;
+      margin: 10px;
+    }
+  }
+
+  &__meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+    @include margin-bottom(0.5);
+    &-left {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;
+    }
+    &-time {
+      font-size: $typographic-small-font-size;
+      color: $color-base;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+    &-tags {
+      margin-bottom: 10px;
+    }
+  }
+  &:last-child {
+    @include margin-bottom(0.5);
+  }
+  &__title {
+    font-size: $typographic-base-font-size * 1.6875;
+    @include line-height(1.5);
+    @include margin-top(0);
+    @include margin-bottom(0.5);
+    &-link {
+      color: $color-base;
+      &:hover,
+      &:focus {
+        color: $color-base;
+        border-bottom: 1px solid $color-base;
+      }
+    }
+  }
+  &__description {
+    font-size: $typographic-base-font-size;
+    @include line-height(1);
+    @include margin-bottom(0.75);
+  }
+}
