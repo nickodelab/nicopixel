@@ -25,6 +25,10 @@ module.exports = {
         label: 'Portfolio',
         path: '/portfolio/',
       },
+      {
+        label: 'Books',
+        path: '/books/',
+      },
     ],
     author: {
       name: '@nicopixel',
