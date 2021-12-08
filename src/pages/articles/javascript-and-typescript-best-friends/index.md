@@ -1,5 +1,5 @@
 ---
-title: Javascript and Typescript: Best friends!
+title: Javascript and Typescript, Best friends!
 date: '2021-10-26'
 layout: post
 draft: true
